@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  color: yellow;
+}
+.inactive {
+  color: black;
+}
+body {
+  background: #fafcfd;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  margin: 20px;
+}
+section {
+  margin: 20px;
+}
+h1 {
+  color: #1e1e1e;
+}
+p {
+  color: #1e1e1e;
+}
+button {
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+input {
+  position: relative;
+  padding: 5px;
+  border-radius: 5px;
+  width: 70%;
+  margin-bottom: 30px;
+}
+.search {
+  color: #acb4c8;
+  width: 12px;
+  position: absolute;
+  margin-top: 5px;
+}
+.cards {
+  background: white;
+  border-radius: 5px;
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+}
+.cards p {
+  font-size: 8px;
+}
+.cards .person {
+  max-width: 20%;
+  height: auto;
+}
+.name .month {
+  font-size: 6px;
+}
+img.person {
+  border-radius: 50%;
+  max-width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+.icons img p {
+  width: px;
+}
+.ratings p {
+  font-size: 9px;
+  margin-left: 3px;
+}
+.card-rows {
+  color: #384157;
+  background: #acb4c8;
+  margin-bottom: 200px;
+  margin-top: 60px;
+}
